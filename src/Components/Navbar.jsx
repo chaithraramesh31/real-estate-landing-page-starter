@@ -68,11 +68,11 @@ export const Navbar = () => {
     color: "#4E5361",
     fontWeight: "bold",
     cursor: "pointer",
-    // padding: theme.spacing(1),
-    // borderRadius: "5px",
+    padding: theme.spacing(1),
+    borderRadius: "5px",
     "&:hover": {
       color: "#fff",
-      // backgroundColor: "#4E5361"
+      backgroundColor: "#4E5361"
     },
   }));
 
