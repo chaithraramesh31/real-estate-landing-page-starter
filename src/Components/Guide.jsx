@@ -21,7 +21,9 @@ const Guide = () => {
     justifyContent: "space-around",
     width: "70%",
     marginTop: theme.spacing(5),
+    marginBottom: theme.spacing(5),
     [theme.breakpoints.down("md")]: {
+      marginBottom: "0",
       width: "100%",
     },
     [theme.breakpoints.down("sm")]: {
@@ -88,6 +90,7 @@ const Guide = () => {
         </Box>
       </GuideBox>
     </GuidesBox>
+    <CustomButton backgroundColor="#0F1B4C" color="#fff" buttonText= "See Full Guides" guideBtn={true} />
   </Box>;
 };
 
