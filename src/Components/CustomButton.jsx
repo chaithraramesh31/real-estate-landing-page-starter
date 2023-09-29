@@ -13,6 +13,7 @@ const CustomButton = ({backgroundColor, color, buttonText, heroBtn, guideBtn, ge
     textTransform: "none",
     display: "block",
     border: "2px solid transparent",
+    marginBottom: heroBtn && theme.spacing(3),
     "&:hover": {
       backgroundColor: color,
       color: backgroundColor,
